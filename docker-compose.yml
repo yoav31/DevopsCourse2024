@@ -19,7 +19,7 @@ services:
     container_name: drupal
     restart: always
     ports:
-      - "8080:80"
+      - "80:80"
     environment:
       DRUPAL_DB_HOST: postgres
       DRUPAL_DB_NAME: drupaldb

@@ -20,9 +20,8 @@ ENV FLASK_ENV=production
 
 RUN flask init-db
 
-# חשיפת פורט
 EXPOSE 5000
 
-# הרצת האפליקציה
+
 CMD ["flask", "run", "--host=0.0.0.0", "--port=5000"]
 

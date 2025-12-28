@@ -4,7 +4,7 @@ FROM python:3.12-slim
 # Set working directory inside the container
 WORKDIR /app
 
-# העתקת רק requirements.txt ראשון (למניעת rebuild מיותר)
+# העתקת רק requirements.txt ראשון. (למניעת rebuild מיותר)
 COPY src/app/requirements.txt .
 
 # התקנת תלויות

@@ -1,1 +1,2 @@
-# DevopsCourse2024
+# Platform Engineering Python Exercise:
+Automating AWS Resource Provisioning
